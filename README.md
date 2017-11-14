@@ -1,6 +1,11 @@
 # Kanban-jQuery
 Kanban Board jQuery Plugin
 
+# Requirements
+
+1. jQuery v3.2.1+ (https://jquery.com/download/)
+2. jQuery UI v1.12.1+ (https://jqueryui.com/)
+
 # Example
 
 Example of the HTML element
