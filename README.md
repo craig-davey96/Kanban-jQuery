@@ -8,6 +8,12 @@ Kanban Board jQuery Plugin
 
 # Example
 
+Include styles and script
+```html
+  <link rel="stylesheet" href="/css/kanban.min.css">
+  <script type="text/javascript" src="/js/kanban.min.js"></script>
+```
+
 Example of the HTML element
 ```html
   <div id="kanban"></div>
