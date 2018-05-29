@@ -9,7 +9,9 @@
         var settings = $.extend({
             titles: ['Block 1', 'Block 2', 'Block 3', 'Block 4'],
             colours: [],
-            items: []
+            items: [],
+	    onChange: function(e,ui){},
+	    onReceive: function(e,ui){}
         }, options)
 
         var classes = {
@@ -57,6 +59,8 @@
                 placeholder: classes.kanban_board_item_placeholder_class,
                 scroll: true,
                 cursor: "move",
+		change: settings.onChange,
+		receive: settings.onReceive
             }).disableSelection();
 
         }
